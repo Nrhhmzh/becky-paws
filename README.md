@@ -1,16 +1,18 @@
-# React + Vite
+Overview Becky's Paws is a static landing page created to present cat-sitting services in a clean, approachable way. It’s intended as a portfolio piece rather than a full booking platform — its goal is to communicate services, pricing, area coverage, and an easy contact route.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+What it includes:
 
-Currently, two official plugins are available:
+- Hero, Services, Areas, Pricing and Contact sections with responsive layouts.
+- Service cards with short descriptions and imagery, plus a centered card layout for clarity.
+- Three pricing plans (1 / 2 / 3 visits) with features, a highlighted "most popular" plan and per-cat surcharge note.
+- Coverage list and a lightweight coverage-check input for visitor feedback.
+- Contact form that opens the user's email client (mailto) so the page works without a backend.
+- Mobile-friendly overlay menu with body-scroll lock and accessibility improvements (aria attributes, focus rings).
+- Purpose & scope This project is a front-end showcase: design, responsive layout, accessibility and UX micro-interactions are the focus. It’s not a production booking system — to convert it to a full product you’d add a backend or a third-party booking provider.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tech & deployment React, Vite, TailwindCSS, react-icons. Deployed as a static site (Netlify).
 
-## React Compiler
+Links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Live demo: https://beckypaws.netlify.app/
+Source: https://github.com/Nrhhmzh/becky-paws
