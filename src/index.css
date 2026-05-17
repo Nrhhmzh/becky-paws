@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Fredoka:wght@300..700&display=swap');
 @import "tailwindcss";
 
+/* Define custom theme */
+@theme {
+  --color-primary: #F7CFD8;
+  --color-secondary: #8E7DBE;
+
+  --font-sans: "Quicksand", sans-serif;
+  --font-fun: "Fredoka", cursive;
+}
+
+/* Reusable components */
+@layer components {
+  .section-areas {
+    @apply py-30 text-center;
+  }
+
+  .section-services {
+    @apply relative min-h-screen flex items-center pt-3;
+  }
+
+  .section-title {
+    @apply font-fun text-3xl font-semibold text-black mb-4;
+  }
+
+  .section-title-light {
+    @apply font-fun text-3xl md:text-4xl font-semibold text-white;
+  }
+
+  .section-subtitle {
+    @apply text-gray-600 text-base md:text-lg font-semibold mb-12;
+  }
+}
+
+/* Optional smooth scroll */
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
 }
